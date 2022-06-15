@@ -54,6 +54,15 @@ scoop install pypy3
 'pypy3' (7.3.9) was installed successfully!
 ```
 
+以下を設定しておくと
+```
+pypy
+```
+でPyPy3が起動できる．
+```
+scoop alias pypy 'pypy3'
+```
+
 
 もしかしたら GCC が必要かもなので，もしエラーが出たら GCC もインストールしてください．
 
